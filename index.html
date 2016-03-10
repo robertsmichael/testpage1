@@ -6,19 +6,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 
-<body>
-
-    <ol-message></ol-message>
-    <app>Loading...</app>
-
-</body>
-
-<script src="https://code.angularjs.org/2.0.0-beta.6/angular2-polyfills.js"></script>
-<script src="https://code.angularjs.org/tools/system.js"></script>
-<script src="https://code.angularjs.org/tools/typescript.js"></script>
-<script src="https://code.angularjs.org/2.0.0-beta.6/Rx.js"></script>
-<script src="https://code.angularjs.org/2.0.0-beta.6/angular2.dev.js"></script>
-
 <script>
     System.config({
         transpiler: 'typescript',
@@ -32,5 +19,19 @@
     System.import('app/boot')
             .then(null, console.error.bind(console));
 </script>
+
+<body>
+
+    <angHeader>Angular header goes here</angHeader>
+    <angBody>Angular header goes here</angBody>
+    <angFooter>Angular header goes here</angFooter> 
+    
+</body>
+
+<script src="https://code.angularjs.org/2.0.0-beta.6/angular2-polyfills.js"></script>
+<script src="https://code.angularjs.org/tools/system.js"></script>
+<script src="https://code.angularjs.org/tools/typescript.js"></script>
+<script src="https://code.angularjs.org/2.0.0-beta.6/Rx.js"></script>
+<script src="https://code.angularjs.org/2.0.0-beta.6/angular2.dev.js"></script>
 
 </html>
